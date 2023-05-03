@@ -1,16 +1,16 @@
 {
-
   "name": "aprendiendo-typescript",
   "description": "Proyecto para aprender las bases de Typescript",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:exercise-1": "tsc-watch --onSuccess \"node dist/basics/exercise-1/app.js\""
   },
   "keywords": [],
   "author": "Felipe Reinales",
   "license": "ISC",
   "devDependencies": {
+    "tsc-watch": "^6.0.4",
     "typescript": "^5.0.4"
   }
 }
